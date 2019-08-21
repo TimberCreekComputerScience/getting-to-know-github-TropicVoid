@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class LemonadeStand {
+	public static void main(String[] Denkeristhebest){
+		Scanner LemonadeStand = new Scanner (System.in);
+
+		System.out.println("Do you want lemonade?");
+		int number = LemonadeStand.nextInt();
+
+		double cost = 1.0;
+		double total = cost * number;
+
+		if (total < 0) {
+			System.out.println("Sorry we are out of service.");
+		} else { 
+			System.out.printf("\nYour total is $%.2f", total);
+		
+		}
+	}
+
+}
